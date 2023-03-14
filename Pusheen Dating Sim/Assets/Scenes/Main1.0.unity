@@ -284,7 +284,8 @@ MonoBehaviour:
   backgroundSprite: {fileID: 0}
   dialogueTrigger: {fileID: 322604840}
   text: {fileID: 479361523}
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 89127145}
+  backgroundManager: {fileID: 992243840}
   characterManager: {fileID: 415762631}
 --- !u!95 &196639628
 Animator:
@@ -396,7 +397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: []
+    name:
+    - 
     sentence:
     - Pusheen
     - Menhera
@@ -406,14 +408,16 @@ MonoBehaviour:
 '
     - 
     - plane
-    - 
+    - element 6
     - this after the rofftop
+    - elemnt 8
+    - elemnt 9
     path:
-    - 1
+    - 1,3
     - 3
-    - 7
+    - 4
     - 5
-    - 5
+    - 1
     - 6
     - 7
     - 8
@@ -467,6 +471,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   backgroundManager: {fileID: 992243840}
@@ -1056,8 +1061,9 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
     - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
     - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
-    - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
-    - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
+    - {fileID: 21300000, guid: 9b74c9649af62fc4d8c18bd911251540, type: 3}
+    - {fileID: 21300000, guid: 9b74c9649af62fc4d8c18bd911251540, type: 3}
+    - {fileID: 21300000, guid: 9b74c9649af62fc4d8c18bd911251540, type: 3}
     - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
     - {fileID: 21300000, guid: 34417f552a1209a49aef4282e9058973, type: 3}
   dialogueManager: {fileID: 89127145}

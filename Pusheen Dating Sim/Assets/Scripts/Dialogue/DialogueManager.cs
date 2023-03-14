@@ -26,6 +26,7 @@ public class DialogueManager : MonoBehaviour
 
     public CharacterManager characterManager;
 
+    private bool backgroundChanges = false;
     private void Start()
     {
         selectingDialogue = false;
@@ -69,6 +70,19 @@ public class DialogueManager : MonoBehaviour
         if (!selectingDialogue)
         {
             dialogueNumber = GetNextPath();
+         
+            if(backgroundManager.isBackgroundChange()){
+                Debug.Log("background change");
+                backgroundChanges = true;
+                return;
+            }
+
+            if(backgroundChanges){
+                dialogueNumber = GetPreviousPath(dialogueNumber);
+                NextDialoguePathNumber = GetPreviousPath(NextDialoguePathNumber);
+                backgroundChanges = false;
+                
+            }
 
             //check to see if there is multiple paths the dialogue can go down and if so then activate the option dialogue
             if (dialogueNumber.Contains(","))

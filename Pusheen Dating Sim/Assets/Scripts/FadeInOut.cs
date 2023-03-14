@@ -14,6 +14,7 @@ public class FadeInOut : MonoBehaviour
     public DialogueTrigger dialogueTrigger;
     public TextMeshProUGUI text;
     public DialogueManager dialogueManager;
+    public BackgroundManager backgroundManager;
     public CharacterManager characterManager;
 
     public void FadeToNextScene(Sprite backgroundImg)
@@ -40,7 +41,11 @@ public class FadeInOut : MonoBehaviour
     public void inNextScene()
     {
         //this function will tell the dialogue manager script to run the dialogue after the screen finishes fading back in
+        //dialogueManager.firstFadeDone = false;
         FindObjectOfType<DialogueManager>().startDialogue(dialogueTrigger.dialogue);
+        //backgroundManager.path = dialogueManager.GetPath();
+        //characterManager.path = dialogueManager.GetPath();
+        //characterManager.IsCharacterChange();
     }
 
     public void IsChangeCharacterFade(){
