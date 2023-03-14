@@ -71,11 +71,12 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueNumber = GetNextPath();
          
-            if(backgroundManager.isBackgroundChange()){
+            if(backgroundManager.isBackgroundChange() && !backgroundChanges){
                 Debug.Log("background change");
                 backgroundChanges = true;
                 return;
             }
+            Debug.Log("sentence typed");
 
             if(backgroundChanges){
                 dialogueNumber = GetPreviousPath(dialogueNumber);
