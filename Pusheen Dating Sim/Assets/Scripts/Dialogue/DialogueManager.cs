@@ -76,7 +76,6 @@ public class DialogueManager : MonoBehaviour
                 backgroundChanges = true;
                 return;
             }
-            Debug.Log("sentence typed");
 
             if(backgroundChanges){
                 dialogueNumber = GetPreviousPath(dialogueNumber);
