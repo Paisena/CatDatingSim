@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     string[] sentences;
     string[] pathOrder;
     string[] dialogueOptions;
+    string[] characterNames;
     public string NextDialoguePathNumber = "-1";
 
     int count = 0;
@@ -19,12 +20,15 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI characterNameText;
 
     public Animator animator;
 
     public BackgroundManager backgroundManager;
 
     public CharacterManager characterManager;
+
+    string characterName;
 
     private bool backgroundChanges = false;
     private void Start()
@@ -40,6 +44,7 @@ public class DialogueManager : MonoBehaviour
         sentences = new string[dialogue.sentence.Length];
         pathOrder = new string[dialogue.path.Length];
         dialogueOptions = new string[dialogue.dialogueOptions.Length];
+        characterNames = characterManager.getSpriteNames();
 
         //insert the dialogue sentences and the paths into the array
         for (int i = 0; i < sentences.Length; i++)
@@ -111,14 +116,22 @@ public class DialogueManager : MonoBehaviour
         if (!selectingDialogue)
         {
             sentence = sentences[Int32.Parse(dialogueNumber)];
+            characterName = characterNames[Int32.Parse(dialogueNumber)];
+            Debug.Log(characterName);
         }
         else
         {
             sentence = sentences[Int32.Parse(NextDialoguePathNumber)];
+            characterName = characterNames[Int32.Parse(NextDialoguePathNumber)];
+            Debug.Log(characterName);
+            if(characterName == "DialogueManager")
+            {
+                characterName = "";
+            }
         }
         //display the dialogue
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+        StartCoroutine(TypeSentence(sentence,characterName));
     }
 
     private string GetNextPath()
@@ -141,9 +154,10 @@ public class DialogueManager : MonoBehaviour
         return nextPath;
     }
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeSentence(string sentence, string characterName)
     {
         // Places individual letters from dialogue into text box
+        characterNameText.text = characterName;
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
@@ -152,10 +166,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    IEnumerator TypeSentences(string[] sentences)
+    IEnumerator TypeSentences(string[] sentences, string characterName)
     {
         // Places individual letters from dialogue into text box
-
+        Debug.Log(characterName);
+        characterNameText.text = characterName;
         dialogueText.text = "";
         foreach (string sentence in sentences)
         {
@@ -204,7 +219,7 @@ public class DialogueManager : MonoBehaviour
         count = 0;
         selectingDialogue = true;
         StopAllCoroutines();
-        StartCoroutine(TypeSentences(options));
+        StartCoroutine(TypeSentences(options, characterName));
         //TypeSentences(options);
     }
 

@@ -87,4 +87,19 @@ public class CharacterManager : MonoBehaviour
         if (sprite != null)
             characterSpriteRender.sprite = sprite;
     }
+
+    public string[] getSpriteNames()
+    {
+        return parseSpriteNamesToStringNames();
+    }
+
+    private string[] parseSpriteNamesToStringNames()
+    {
+        string[] spriteNames = new string[spriteList.Length];
+        for (int i = 0; i < spriteList.Length; i++)
+        {
+            spriteNames[i] = spriteList[i].name;
+        }
+        return spriteNames;
+    }
 }
