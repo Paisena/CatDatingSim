@@ -99,6 +99,9 @@ public class CharacterManager : MonoBehaviour
         for (int i = 0; i < spriteList.Length; i++)
         {
             spriteNames[i] = spriteList[i].name;
+            if(spriteList[i].name == "NoBackground"){
+                spriteNames[i] = "";
+            }
         }
         return spriteNames;
     }

@@ -5,8 +5,6 @@ using UnityEngine;
 public class Dialogue
 {
 
-    //this
-    public string[] name;
 
     [TextArea(3, 10)]
     public string[] sentence;

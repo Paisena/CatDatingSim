@@ -220,12 +220,10 @@ public class DialogueManager : MonoBehaviour
         selectingDialogue = true;
         StopAllCoroutines();
         StartCoroutine(TypeSentences(options, characterName));
-        //TypeSentences(options);
     }
 
     public void selectDialogue(string option)
     {
-
         if (count != 0)
         {
             return;
