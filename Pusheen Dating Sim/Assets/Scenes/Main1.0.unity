@@ -405,14 +405,14 @@ MonoBehaviour:
     - 
     path:
     - 1
-    - 2
+    - 2,3
     - 3
     - 4
     dialogueOptions:
     - 
     - 
-    - 
-    - 
+    - Wow
+    - Cool
 --- !u!1 &415762630
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,10 +443,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteList:
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
+  - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -890,9 +890,9 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 415762631}
-        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
-        m_MethodName: IsCharacterChange
+      - m_Target: {fileID: 322604840}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -914,9 +914,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 322604840}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
-        m_MethodName: TriggerDialogue
+      - m_Target: {fileID: 415762631}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: IsCharacterChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1308,7 +1308,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
