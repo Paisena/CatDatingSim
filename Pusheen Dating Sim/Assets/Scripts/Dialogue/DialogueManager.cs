@@ -44,9 +44,13 @@ public class DialogueManager : MonoBehaviour
         sentences = new string[dialogue.sentence.Length];
         pathOrder = new string[dialogue.path.Length];
         dialogueOptions = new string[dialogue.dialogueOptions.Length];
-        characterNames = characterManager.getSpriteNames();
+        characterNames = new string[dialogue.name.Length];
 
         //insert the dialogue sentences and the paths into the array
+        for (int i = 0; i < characterNames.Length; i++)
+        {
+            characterNames[i] = dialogue.name[i];
+        }
         for (int i = 0; i < sentences.Length; i++)
         {
             sentences[i] = dialogue.sentence[i];
@@ -117,7 +121,6 @@ public class DialogueManager : MonoBehaviour
         {
             sentence = sentences[Int32.Parse(dialogueNumber)];
             characterName = characterNames[Int32.Parse(dialogueNumber)];
-            Debug.Log(characterName);
         }
         else
         {
@@ -169,7 +172,6 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentences(string[] sentences, string characterName)
     {
         // Places individual letters from dialogue into text box
-        Debug.Log(characterName);
         characterNameText.text = characterName;
         dialogueText.text = "";
         foreach (string sentence in sentences)

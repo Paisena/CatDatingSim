@@ -30,9 +30,7 @@ public class BackgroundManager : MonoBehaviour
         if (count == 0)
         {
             //When the background needs to be changed this function will be called which goes to the FadeInOut script to change it to the next scene
-
             path = dialogueManager.GetPath();
-            Debug.Log(path);
 
             if (dialogueManager.GetIfSelectingDialogue())
             {
