@@ -7,10 +7,9 @@ public class CharacterManager : MonoBehaviour
 {
     //This script manages how and when the characters will appear on the screen
 
-    //METHODS TO ADD:
-    //  Reveal Character
-    //  Hide Charater
-    //  Change Character
+    //!BUG when using the dialogue options and no background, the white image appears
+    //! this is probably because the check to see if the background name is NoBackground is not happening
+
     private int count = 0;
     public Sprite[] spriteList;
     public BackgroundManager backgroundManager;

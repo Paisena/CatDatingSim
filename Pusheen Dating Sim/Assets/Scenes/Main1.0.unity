@@ -399,20 +399,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentence:
-    - I prime sunny day...
+    - One prime sunny day...
     - My first day of school!
     - Man, this new school was super difficult to get into
-    - 
+    - Studying for weeks for that entrance exam, just to get sick and miss out on
+      so many days...
+    - Everyones going to have formed friend groups and I'm going to be all alone
+      :0
+    - Alright, I going to school and I'll make some new friends
+    - But first, I got to get ready I'm already late!
+    - '*PANT PANT PANT*'
+    - '*WHEEEEEEEEZZZZZZEEEEEE*'
+    - JUST BARELY MADE IT
+    - My first day is already getting of to a great start
+    - My first day is already getting of to a great start
     path:
     - 1
-    - 2,3
+    - 2
     - 3
     - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 11
     dialogueOptions:
     - 
     - 
-    - Wow
-    - Cool
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
 --- !u!1 &415762630
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,10 +469,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteList:
-  - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
-  - {fileID: 21300000, guid: 0a9ae510c5092d54f977e2e5cfbf4d4e, type: 3}
-  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
-  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1033,6 +1067,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
     - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
     - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 84bb4eba0ae4b134db251025bfee6bfc, type: 3}
+    - {fileID: 21300000, guid: 84bb4eba0ae4b134db251025bfee6bfc, type: 3}
+    - {fileID: 21300000, guid: 84bb4eba0ae4b134db251025bfee6bfc, type: 3}
+    - {fileID: 21300000, guid: 84bb4eba0ae4b134db251025bfee6bfc, type: 3}
+    - {fileID: 21300000, guid: 84bb4eba0ae4b134db251025bfee6bfc, type: 3}
   dialogueManager: {fileID: 89127145}
   animator: {fileID: 196639628}
   path: 0
@@ -1308,7 +1350,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1316,7 +1358,7 @@ SpriteRenderer:
   m_Size: {x: 2.25, y: 2.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!224 &1804921937
