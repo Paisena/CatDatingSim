@@ -444,10 +444,15 @@ MonoBehaviour:
     - You
     - You
     - You
+    - 
+    - ???
+    - 
+    - ???
     - You
+    - ???
     - 
-    - 
-    - 
+    - You
+    - You
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -499,10 +504,16 @@ MonoBehaviour:
     - Music is just tooting into a horn
     - History is just some old guys who did stuff a long time ago
     - And physics makes me want to find the bottom of the Golden Gate :)))
-    - '*You feel a threatening glare pierce your back*'
+    - '*As you pack up your things, you start to feel a threatening glare pierce
+      your back'
     - who are you.
     - 'turning around you see a chonky, grey, domestic, short hair, taby cat '
-    - 'turning around you see a chonky, grey, domestic, short hair, taby cat '
+    - I've never seen you before. Are you some creep trying to sneak into class?
+    - Ummmmm....
+    - You are to sussy. You must be an imposter!
+    - '*She jumps on you and starts to nibble you*'
+    - AHHHH GET OFF MEEE
+    - '*Nibble nibble nibble*'
     path:
     - 1
     - 2
@@ -553,6 +564,11 @@ MonoBehaviour:
     - 47
     - 48
     - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    - 54
     dialogueOptions:
     - 
     - 
@@ -677,8 +693,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1310,6 +1331,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
   dialogueManager: {fileID: 89127145}
   animator: {fileID: 196639628}
   path: 0
@@ -1590,7 +1616,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.25, y: 2.25}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
