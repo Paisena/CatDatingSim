@@ -8,6 +8,8 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
 
+    [SerializeField]
+    private string gotToPath = "0";
     string[] sentences;
     string[] pathOrder;
     string[] dialogueOptions;
@@ -31,6 +33,9 @@ public class DialogueManager : MonoBehaviour
     string characterName;
 
     private bool backgroundChanges = false;
+    private void Awake() {
+        SetPath();
+    }
     private void Start()
     {
         selectingDialogue = false;
@@ -79,35 +84,38 @@ public class DialogueManager : MonoBehaviour
         if (!selectingDialogue)
         {
             dialogueNumber = GetNextPath();
-         
-            if(backgroundManager.isBackgroundChange() && !backgroundChanges){
+
+            if (backgroundManager.isBackgroundChange() && !backgroundChanges)
+            {
                 Debug.Log("background change");
                 backgroundChanges = true;
                 return;
             }
 
-            if(backgroundChanges){
+            if (backgroundChanges)
+            {
                 dialogueNumber = GetPreviousPath(dialogueNumber);
                 NextDialoguePathNumber = GetPreviousPath(NextDialoguePathNumber);
                 backgroundChanges = false;
-                
+
             }
 
             //check to see if there is multiple paths the dialogue can go down and if so then activate the option dialogue
             if (dialogueNumber.Contains(","))
             {
-                char[] splitPath = GetDialogueOptions(dialogueNumber);
+                string[] splitPath = GetDialogueOptions(dialogueNumber);
                 int[] splitPathInt = new int[splitPath.Length];
 
                 for (int i = 0; i < splitPath.Length; i++)
                 {
-                    splitPathInt[i] = splitPath[i] - '0';
+                    splitPathInt[i] = Int32.Parse(splitPath[i]);
                 }
 
                 string[] optionString = new string[splitPath.Length];
 
                 for (int i = 0; i < optionString.Length; i++)
                 {
+                    Debug.Log(dialogueOptions[splitPathInt[i]]);
                     optionString[i] = dialogueOptions[splitPathInt[i]];
                 }
                 displayOptions(optionString);
@@ -127,14 +135,14 @@ public class DialogueManager : MonoBehaviour
             sentence = sentences[Int32.Parse(NextDialoguePathNumber)];
             characterName = characterNames[Int32.Parse(NextDialoguePathNumber)];
             Debug.Log(characterName);
-            if(characterName == "DialogueManager")
+            if (characterName == "DialogueManager")
             {
                 characterName = "";
             }
         }
         //display the dialogue
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence,characterName));
+        StartCoroutine(TypeSentence(sentence, characterName));
     }
 
     private string GetNextPath()
@@ -202,16 +210,18 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public string GetPath(){
+    public string GetPath()
+    {
         return NextDialoguePathNumber;
     }
 
-    public char[] GetDialogueOptions(string path)
+    public string[] GetDialogueOptions(string path)
     {
+        //return string which will give back them sepereated
         //this function will seperate the given variable and give it back for the script to display the dialogue options to the user
         string removedPathString = path.Replace(",", "");
 
-        char[] pathSplit = removedPathString.ToCharArray();
+        string[] pathSplit = path.Split(",");
 
         return pathSplit;
     }
@@ -237,15 +247,17 @@ public class DialogueManager : MonoBehaviour
             return;
 
 
-        char[] dialogueOptions = GetDialogueOptions(NextDialoguePathNumber);
+        string[] dialogueOptions = GetDialogueOptions(NextDialoguePathNumber);
 
-        
-        NextDialoguePathNumber = GetPreviousPath(pathOrder[(dialogueOptions[Int32.Parse(option)] - '0')]);
 
-        if (!backgroundManager.isBackgroundChange()){
+        NextDialoguePathNumber = GetPreviousPath(pathOrder[Int32.Parse(dialogueOptions[Int32.Parse(option)])]);
+
+        if (!backgroundManager.isBackgroundChange())
+        {
             DisplayNextSentence();
         }
-        else{
+        else
+        {
             Debug.Log("changed during screen fade");
         }
         characterManager.IsCharacterChange();
@@ -274,5 +286,10 @@ public class DialogueManager : MonoBehaviour
 
         Debug.Log("no previous path");
         return "no previous path";
+    }
+
+    private void SetPath()
+    {
+        NextDialoguePathNumber = gotToPath;
     }
 }
