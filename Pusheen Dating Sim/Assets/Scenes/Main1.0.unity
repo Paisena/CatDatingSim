@@ -452,7 +452,33 @@ MonoBehaviour:
     - ???
     - 
     - You
+    - 
     - You
+    - 'Jelly '
+    - Jelly
+    - 
+    - Jelly
+    - Jelly
+    - Pusheen
+    - Pusheen
+    - Pusheen
+    - 
+    - Jelly
+    - You
+    - You
+    - Jelly
+    - 
+    - You
+    - You
+    - You
+    - 
+    - ???
+    - You
+    - ???
+    - 
+    - ???
+    - Jelly
+    - 
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -475,7 +501,7 @@ MonoBehaviour:
     - '*BOOOMMDMSAODM POOWWWWOAPODSD*'
     - ...
     - Hi!
-    - Jelly?!?!??
+    - Jelly-Chan?!?!??
     - Your the one who crashed into me?
     - Yup its me :)
     - Buddy???
@@ -483,7 +509,7 @@ MonoBehaviour:
     - I thought I would never see you again after junior high!
     - Thats so crazy that we would meet up again in high school!
     - Yea, nice to see you to
-    - As I struggle to get up Jelly is already hopping around in excitement
+    - As I struggle to get up Jelly-Chan is already hopping around in excitement
     - 'I can''t believe your attending this school! '
     - Where have you been I haven't seen you around school?
     - Yea sorry Jelly, I got sick after talking the entrance exam, and had to stay
@@ -493,8 +519,8 @@ MonoBehaviour:
     - Let's get going now, we don't want you to be late on your first day of school
       now do we :)
     - I so happy that I can hang out with my buddy!
-    - (I've know Jelly since we were little so it's nice that I have someone I know
-      here)
+    - (I've know Jelly-Chan since we were little so it's nice that I have someone
+      I know here)
     - (Things are already turning for the better...)
     - Yea lets go!
     - '*RRRRRRIIIIIIINNNNNNNNNNGGGGGGGG*'
@@ -506,7 +532,7 @@ MonoBehaviour:
     - And physics makes me want to find the bottom of the Golden Gate :)))
     - '*As you pack up your things, you start to feel a threatening glare pierce
       your back'
-    - who are you.
+    - Who. are. you.
     - 'turning around you see a chonky, grey, domestic, short hair, taby cat '
     - I've never seen you before. Are you some creep trying to sneak into class?
     - Ummmmm....
@@ -514,6 +540,37 @@ MonoBehaviour:
     - '*She jumps on you and starts to nibble you*'
     - AHHHH GET OFF MEEE
     - '*Nibble nibble nibble*'
+    - AAAAAAAHHHHHHHHH
+    - HEY HEY HEY
+    - GET OFF OF EM GET OFF OF EM
+    - '*Jelly throws the cat off of you as you fight to stay alive*'
+    - You ok there buddy?
+    - Pusheen-Chan is a really fiesty one and does not like new people showing up
+      on her turf
+    - Mreowowow!
+    - You better be careful you!
+    - If I catch you slacking, your going to pay!
+    - '*Pusheen gives you a loud hiss and waddles fluffily away*'
+    - Sorry about her buddy, Pusheen-Chan can really be a meanie sometimes, but deep
+      down shes a really sweetheart!
+    - Ahhh... Geting thrown down to the ground two times on my first day of school
+      really sucks.
+    - Pusheen-Chan is a real fiesty one for sure
+    - Aw forget that, lets get out of here and snatch a good old lunch how about
+      that!
+    - In the lunch room, you survey the wide variety of edibles presented to you
+    - OOO
+    - CHICKEN AND RICE!!!
+    - I AM ABOUT TO CHOW DOWN
+    - '*You sprint over in a hurry to the lunch lines trying to get a piece of the
+      pie*'
+    - Hey watch it!
+    - Oh, sorry about that
+    - Yea you better be sorry about that punk!
+    - '*You turn to the voice and see a large and strong black cat tower over you*'
+    - Try anything funny like that again and you'll get it!
+    - Eep! It's Jamal! We better hurry out of here quick buddy!
+    - You two quickly skadadle out of there after getting your food
     path:
     - 1
     - 2
@@ -569,6 +626,32 @@ MonoBehaviour:
     - 52
     - 53
     - 54
+    - 55
+    - 56
+    - 57
+    - 58
+    - 59
+    - 60
+    - 61
+    - 62
+    - 63
+    - 64
+    - 65
+    - 66
+    - 67
+    - 68
+    - 69
+    - 70
+    - 71
+    - 72
+    - 73
+    - 74
+    - 75
+    - 76
+    - 77
+    - 78
+    - 79
+    - 80
     dialogueOptions:
     - 
     - 
@@ -700,6 +783,33 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
   - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
   - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: 58914f1e6d7153144a2969671fcfaf14, type: 3}
+  - {fileID: 21300000, guid: 58914f1e6d7153144a2969671fcfaf14, type: 3}
+  - {fileID: 21300000, guid: 58914f1e6d7153144a2969671fcfaf14, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1336,6 +1446,32 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
     - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 0ae109a14194ceb438a4092a72dae825, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
   dialogueManager: {fileID: 89127145}
   animator: {fileID: 196639628}
   path: 0
