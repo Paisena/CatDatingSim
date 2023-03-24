@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423ceaee6e029294ca0aea9f7b90b190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gotToPath: 80
   NextDialoguePathNumber: -1
   selectingDialogue: 0
   dialogueText: {fileID: 479361523}
@@ -479,6 +480,30 @@ MonoBehaviour:
     - ???
     - Jelly
     - 
+    - Jelly
+    - 
+    - You
+    - You
+    - You
+    - You
+    - 
+    - You
+    - You
+    - You
+    - You
+    - You
+    - You
+    - You
+    - 
+    - You
+    - jelly
+    - jelly
+    - Jelly
+    - You
+    - Jelly
+    - You
+    - You
+    - You
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -571,6 +596,31 @@ MonoBehaviour:
     - Try anything funny like that again and you'll get it!
     - Eep! It's Jamal! We better hurry out of here quick buddy!
     - You two quickly skadadle out of there after getting your food
+    - Jamals in a gang, so we better be careful what we do around him!
+    - '*After school*'
+    - My first day of school was wild...
+    - All this school work that I have to make up is already stacking up
+    - And all those scary people like Pusheen-Chan and Jamal already have it out
+      for me...
+    - Welp. The best I can do is work hard and hope for the best
+    - '*A few days later at lunch*'
+    - It took a few days, but I think i think I'm getting accomodated with this school
+    - The English teacher seems like a nutcase, both other than that my teachers
+      seem normal
+    - I haven't had any run-ins with Pusheen-Chan or Jamal luckily either
+    - Hmmmm...
+    - What should I do for lunch today?
+    - Lets go to that one cool looking tree
+    - This tree really is something!
+    - '*You here someone stumble and fall over on the other side of the tree*'
+    - Oh fancy seeing you here Jelly-Chan
+    - Yowza, hi there Buddy!
+    - You here to relax to?
+    - The tree really is something!
+    - You ok Jelly-Chan? You just fell over
+    - Oh yea I'm alright
+    - (She seems pretty embarssed about falling over, maybe I should say something)
+    - Its alright you don't have hide you pain, were buddies out here
     path:
     - 1
     - 2
@@ -652,6 +702,29 @@ MonoBehaviour:
     - 78
     - 79
     - 80
+    - 81
+    - 82
+    - 83
+    - 84
+    - 85
+    - 86
+    - 87
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92,200,201
+    - 93
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102,199
+    - 103
     dialogueOptions:
     - 
     - 
@@ -699,6 +772,162 @@ MonoBehaviour:
     - 
     - 
     - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Visit the yard
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Comfort Her
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '*Squish her*'
+    - Walk around the school
+    - Go to the gym
 --- !u!1 &415762630
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,7 +1038,29 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58914f1e6d7153144a2969671fcfaf14, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1041,8 +1292,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498498801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.011, y: 0, z: 0}
-  m_LocalScale: {x: 1.1216722, y: 0.92579776, z: 1}
+  m_LocalPosition: {x: -0.0242, y: 0, z: 0}
+  m_LocalScale: {x: 1.1450104, y: 0.92579776, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1712174721}
@@ -1472,6 +1723,29 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
     - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
     - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 3e7fe957a2dd8c14e972092557dbe6c2, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: 9d217d2507069234daa5312cef9430ff, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
   dialogueManager: {fileID: 89127145}
   animator: {fileID: 196639628}
   path: 0
