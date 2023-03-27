@@ -504,6 +504,8 @@ MonoBehaviour:
     - You
     - You
     - Jelly
+    - 
+    - Jelly
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -620,8 +622,11 @@ MonoBehaviour:
     - You ok Jelly-Chan? You just fell over
     - Oh yea I'm alright
     - (She seems pretty embarssed about falling over, maybe I should say something)
-    - Its alright you don't have hide you pain, were buddies out here
-    - Oh UwU
+    - 'Its alright you don''t have hide your pain, were buddies '
+    - Your right buddy I guess it hurts a bit
+    - '*You grab Jelly-Chan''s face*'
+    - OW!
+    - Why'd you do that! >:(
     path:
     - 1
     - 2
@@ -724,9 +729,10 @@ MonoBehaviour:
     - 99
     - 100
     - 101
-    - 102,199
+    - 102,104
     - 103
-    - 104
+    - 
+    - 105
     dialogueOptions:
     - 
     - 
@@ -832,102 +838,102 @@ MonoBehaviour:
     - 
     - Comfort Her
     - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
     - '*Squish her*'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
     - Walk around the school
     - Go to the gym
 --- !u!1 &415762630
@@ -1295,8 +1301,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498498801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0068, y: 0, z: 0}
-  m_LocalScale: {x: 1.1123304, y: 0.92579776, z: 1}
+  m_LocalPosition: {x: -0.039, y: 0, z: 0}
+  m_LocalScale: {x: 1.1425638, y: 0.92579776, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1712174721}
