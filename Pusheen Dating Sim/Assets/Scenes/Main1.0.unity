@@ -1070,6 +1070,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1745,6 +1749,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
