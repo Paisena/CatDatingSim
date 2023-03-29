@@ -506,6 +506,9 @@ MonoBehaviour:
     - Jelly
     - 
     - Jelly
+    - Jelly
+    - Jelly
+    - Jelly
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -627,6 +630,7 @@ MonoBehaviour:
     - '*You grab Jelly-Chan''s face*'
     - OW!
     - Why'd you do that! >:(
+    - Anyways
     path:
     - 1
     - 2
@@ -731,8 +735,12 @@ MonoBehaviour:
     - 101
     - 102,104
     - 103
-    - 
+    - 107
     - 105
+    - 106
+    - 107
+    - 108
+    - 109
     dialogueOptions:
     - 
     - 
@@ -1062,6 +1070,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
