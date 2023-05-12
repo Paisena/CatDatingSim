@@ -507,8 +507,47 @@ MonoBehaviour:
     - 
     - Jelly
     - Jelly
+    - You
     - Jelly
     - Jelly
+    - Jelly
+    - You
+    - You
+    - Jelly
+    - Jelly
+    - Jelly
+    - Jelly
+    - Pusheen
+    - 
+    - Jelly
+    - Pusheen
+    - Pusheen
+    - Pusheen
+    - 
+    - 
+    - Pusheen
+    - Pusheen
+    - 
+    - Jelly
+    - Jelly
+    - Jelly
+    - Jelly
+    - Jelly
+    - Pusheen
+    - Jelly
+    - 
+    - Pusheen
+    - Jelly
+    - Jelly
+    - 
+    - You
+    - Pusheen
+    - Pusheen
+    - 
+    - You
+    - 
+    - Pusheen
+    - 
     sentence:
     - One prime sunny day...
     - My first day of school!
@@ -630,7 +669,51 @@ MonoBehaviour:
     - '*You grab Jelly-Chan''s face*'
     - OW!
     - Why'd you do that! >:(
-    - Anyways
+    - 'Sorry Jelly-Chan I let the intrusive thoughts win... '
+    - Its alright buddy
+    - Anyways...
+    - How has these first few days been at school?
+    - Oh it been great Jelly-Chan
+    - "The workload has been pretty smooth, but some people here are pretty scary
+      (\u30CE\u03C9\u30FD)"
+    - Like Pusheen-Chan and Jamal?
+    - Yea (--_--)
+    - Oh don't let them get to you buddy I know deep down they are good people!
+    - Speaking of which ...
+    - Meow meow!
+    - '*Jelly turns around to talk to Pusheen*'
+    - Whats up Pusheen-Chan!
+    - Listen here Jelly-Chan
+    - That new friend of yours that showed up randomly a few days ago is SOO annoying
+    - I always catch em trying to catch glances at me
+    - '*She casually looks past Jelly-Chan''s shoulder and sees you*'
+    - '*Her face quickly morphs from glee to anger*'
+    - HIISISISIISIISIIS
+    - "MEOW MEOW MEOWOWMEO         \r(\uFF03`\u0414\xB4)"
+    - '*Pusheen-Chan lunges at you, but luckily Jelly-Chan is quick enough to hold
+      her back*'
+    - Calm down Pushen-Chan calm down!
+    - '*Jelly-Chan somehow manages to hold Pusheen-Chan back and eventually calm
+      her down*'
+    - Chillllll Chilllllll
+    - How about this...
+    - You two go hang out here and try to learn a little more about each other ok?
+    - Me?? With this bozo????
+    - Please Pusheen-Chan :3 I'm sure you two would get along if just do little bitty
+      witty of chatting
+    - '*Pusheen-Chan frustratedly looks looks back and forth between you two*'
+    - Fine.
+    - Yay!
+    - Okie you two have fun i'm going to go grab a snack or something
+    - '*Jelly-Chan gleefully skips away as you two look at each other*'
+    - Soooo......
+    - 'Hmpf '
+    - I'm only doing it because of Jelly-Chan
+    - '*An awkward silences fills the air*'
+    - (I'm so scared!!! What should I do)
+    - '*You dash as quick as you can in the opposite direction*'
+    - 'YOU SHALL NOT ESCAPE ME '
+    - '*Pusheen-Chan seemingly teleports in front of you*'
     path:
     - 1
     - 2
@@ -741,6 +824,45 @@ MonoBehaviour:
     - 107
     - 108
     - 109
+    - 110
+    - 111
+    - 112
+    - 113
+    - 114
+    - 115
+    - 116
+    - 117
+    - 118
+    - 119
+    - 120
+    - 121
+    - 122
+    - 123
+    - 124
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+    - 132
+    - 133
+    - 134
+    - 135
+    - 136
+    - 137
+    - 138
+    - 139
+    - 140
+    - 141
+    - 142
+    - 143
+    - 144
+    - 145,199
+    - 146
+    - 147
+    - 148
     dialogueOptions:
     - 
     - 
@@ -887,6 +1009,7 @@ MonoBehaviour:
     - 
     - 
     - 
+    - Run
     - 
     - 
     - 
@@ -940,8 +1063,7 @@ MonoBehaviour:
     - 
     - 
     - 
-    - 
-    - 
+    - Small Talk
     - Walk around the school
     - Go to the gym
 --- !u!1 &415762630
@@ -1065,11 +1187,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
-  - {fileID: 0}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
@@ -1083,6 +1205,47 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
   - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: f17488b47ec717e4eaf3aa5061b049c1, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: ef8b731c5c6ab424585ae35cb78fe87e, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
+  - {fileID: 21300000, guid: fbc0e06653f56b74a8617820336f7c5b, type: 3}
   backgroundManager: {fileID: 992243840}
   dialogueManager: {fileID: 89127145}
   path: 
@@ -1758,6 +1921,67 @@ MonoBehaviour:
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
     - {fileID: 21300000, guid: acd888164fd3c9346b3b8ebe8ea9d6a4, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
+    - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
     - {fileID: 21300000, guid: 123de6daa4b3adb418bdb135996bdf01, type: 3}
